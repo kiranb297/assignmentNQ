@@ -1,0 +1,60 @@
+Test Case 1: Login with Invalid Username
+Steps:
+Open the login page
+Enter Username: anything other than student
+Enter Password: Password123
+Click Submit
+
+Expected Result:
+An error message is displayed: “Your username is invalid!”
+User remains on the login page
+
+
+Test Case 2: Login with Invalid Password
+Steps:
+Open the login page
+Enter Username: student
+Enter Password: incorrect password
+Click Submit
+
+Expected Result:
+An error message is displayed: “Your password is invalid!”
+User remains on the login page
+
+
+Test Case 3: Empty Username Field
+Steps:
+Open the login page
+Leave Username blank
+Enter valid Password: Password123
+Click Submit
+
+Expected Result:
+Login fails
+Appropriate error message is displayed
+User remains on the login page
+
+
+Test Case 4: Empty Password Field
+Steps:
+Open the login page
+Enter valid Username: student
+Leave Password blank
+Click Submit
+
+Expected Result:
+Login fails
+Appropriate error message is displayed
+User remains on the login page
+
+
+Test Case 5: Both Fields Blank
+Steps:
+Open the login page
+Leave both Username and Password blank
+Click Submit
+
+Expected Result:
+Login fails
+Appropriate error message is displayed
+User remains on the login page

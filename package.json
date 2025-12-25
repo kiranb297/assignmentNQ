@@ -1,0 +1,21 @@
+{
+  "name": "assignmentnq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "tsc": "tsc --noEmit",
+    "lint": "eslint . --ext .ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.57.0",
+    "@types/node": "^25.0.3",
+    "typescript": "^5.4.0",
+    "eslint": "^8.47.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.10.0"
+  }
+}

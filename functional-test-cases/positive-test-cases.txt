@@ -1,0 +1,61 @@
+Test Case 1: Successful Login with Valid Credentials
+Steps:
+Open the login page
+Enter Username: student
+Enter Password: Password123
+Click Submit
+
+Expected Result:
+User is redirected to the Logged In Successfully page
+URL contains /logged-in-successfully/
+Success message is displayed
+Log out button is visible and enabled
+
+
+Test Case 2: Verify URL Redirection After Successful Login
+Steps:
+Perform a valid login
+
+Expected Result:
+The login page URL changes to the Logged In Successfully page URL
+User does not remain on the login page
+
+
+Test Case 3: Verify Log Out Button Functionality After Login
+Steps:
+Login with valid credentials
+Click the Log out button
+
+Expected Result:
+User is logged out successfully
+User is redirected back to the login page
+
+
+Test Case 4: Successful Login Using Enter Key
+Steps:
+Open the login page
+Enter valid username and password
+Press the Enter key
+
+Expected Result:
+Login is successful
+User is redirected to the success page
+
+
+Test Case 5: Multiple Successful Logins in Sequence
+Steps:
+Open the login page
+Enter valid username: student
+Enter valid password: Password123
+Click Submit
+Verify successful login and presence of Log out button
+Click Log out button
+On the login page, repeat steps 2–4 to login again
+
+Expected Result:
+First login is successful
+User is redirected to the Logged In Successfully page
+Log out button is visible and functional
+After logging out, second login is successful as well
+User is redirected to the success page again
+No errors or validation messages are displayed
